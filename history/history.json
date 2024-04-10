@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f6f024e6d1e8c823",
+      "uid" : "49daf11aaff75038",
       "status" : "passed",
       "time" : {
-        "start" : 1712780409669,
-        "stop" : 1712780417710,
-        "duration" : 8041
+        "start" : 1712780709651,
+        "stop" : 1712780717158,
+        "duration" : 7507
       }
     } ]
   },
@@ -28,12 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a8ad1d875fe9602b",
+      "uid" : "1a69730597122794",
       "status" : "passed",
       "time" : {
-        "start" : 1712780440978,
-        "stop" : 1712780446513,
-        "duration" : 5535
+        "start" : 1712780741390,
+        "stop" : 1712780746657,
+        "duration" : 5267
       }
     } ]
   },
@@ -47,13 +47,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bfec5ccb09aff732",
+      "uid" : "90ac43107f25705d",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <406>.\n",
       "time" : {
-        "start" : 1712780417795,
-        "stop" : 1712780440927,
-        "duration" : 23132
+        "start" : 1712780717211,
+        "stop" : 1712780741375,
+        "duration" : 24164
       }
     } ]
   }
