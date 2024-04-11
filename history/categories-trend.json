@@ -9,5 +9,10 @@
     "Test defects" : 7
   }
 }, {
+  "data" : {
+    "Product defects" : 41,
+    "Test defects" : 7
+  }
+}, {
   "data" : { }
 } ]
