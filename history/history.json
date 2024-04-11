@@ -1,14 +1,23 @@
 {
   "e290728c9c5b8dd9d54c2b1cfa5755a5" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "805589e1bf391892",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846851381,
+        "stop" : 1712846892313,
+        "duration" : 40932
+      }
+    }, {
       "uid" : "f1c35a9744bddaec",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -24,11 +33,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "20fa4c969a466d82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846851919,
+        "stop" : 1712846852189,
+        "duration" : 270
+      }
+    }, {
       "uid" : "721c81f0a7c032ad",
       "status" : "passed",
       "time" : {
@@ -43,11 +60,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "e854336b2c15719d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846862895,
+        "stop" : 1712846863138,
+        "duration" : 243
+      }
+    }, {
       "uid" : "a5042c2f03b53389",
       "status" : "passed",
       "time" : {
@@ -62,11 +87,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "6951178d680ff09d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846935494,
+        "stop" : 1712846935703,
+        "duration" : 209
+      }
+    }, {
       "uid" : "8ab2fc663db52fc9",
       "status" : "passed",
       "time" : {
@@ -78,14 +111,23 @@
   },
   "ec8ecc81b072e5400708efcb207ee1e8" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "c5e7a5bbe1445a61",
+      "status" : "failed",
+      "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <O documento não pode conter letras.> but was: <O documento deve ter exatamente 11 dígitos.>",
+      "time" : {
+        "start" : 1712846847160,
+        "stop" : 1712846851201,
+        "duration" : 4041
+      }
+    }, {
       "uid" : "adad6578c648a713",
       "status" : "failed",
       "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <O documento não pode conter letras.> but was: <O documento deve ter exatamente 11 dígitos.>",
@@ -98,14 +140,23 @@
   },
   "d543c53cd7029fb28d22e1d70ae215dc" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "65d78452c758670c",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
+      "time" : {
+        "start" : 1712846938575,
+        "stop" : 1712846981733,
+        "duration" : 43158
+      }
+    }, {
       "uid" : "54396f040843a9af",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -121,11 +172,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "8d13bb929984aef0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846849383,
+        "stop" : 1712846938572,
+        "duration" : 89189
+      }
+    }, {
       "uid" : "e60b831f8cb4c8d3",
       "status" : "passed",
       "time" : {
@@ -138,13 +197,22 @@
   "fa7336b6fd5d7944e8cf7af3eb731f1b" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "cb2915bf11d28457",
+      "status" : "broken",
+      "statusDetails" : "com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field \"emailConfirmationValid\" (class model.Customer.FieldErrorsRegister), not marked as ignorable (10 known properties: \"emailConfirmation\", \"loginPwd\", \"phoneNumber\", \"loginPwdConfirmation\", \"name\", \"email\", \"transactionPwd\", \"transactionPwdConfirmation\", \"consentOpt\", \"document\"])\n at [Source: (String)\"{\"status\":400,\"error\":\"VALIDATION_ERROR\",\"timestamp\":1712846939623,\"fieldErrors\":{\"emailConfirmationValid\":\"O e-mail e a confirmação de e-mail devem ser iguais.\",\"email\":\"E-mail é obrigatório.\"}}\"; line: 1, column: 109] (through reference chain: model.GenericErrorResponse[\"fieldErrors\"]->model.Customer.FieldErrorsRegister[\"emailConfirmationValid\"])",
+      "time" : {
+        "start" : 1712846939389,
+        "stop" : 1712846939671,
+        "duration" : 282
+      }
+    }, {
       "uid" : "9cddc958b52e8d9e",
       "status" : "broken",
       "statusDetails" : "com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field \"emailConfirmationValid\" (class model.Customer.FieldErrorsRegister), not marked as ignorable (10 known properties: \"emailConfirmation\", \"loginPwd\", \"phoneNumber\", \"loginPwdConfirmation\", \"name\", \"email\", \"transactionPwd\", \"transactionPwdConfirmation\", \"consentOpt\", \"document\"])\n at [Source: (String)\"{\"status\":400,\"error\":\"VALIDATION_ERROR\",\"timestamp\":1712846426145,\"fieldErrors\":{\"emailConfirmationValid\":\"O e-mail e a confirmação de e-mail devem ser iguais.\",\"email\":\"E-mail é obrigatório.\"}}\"; line: 1, column: 109] (through reference chain: model.GenericErrorResponse[\"fieldErrors\"]->model.Customer.FieldErrorsRegister[\"emailConfirmationValid\"])",
@@ -157,14 +225,23 @@
   },
   "b5736821035b26af3d2e7802cc955619" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "90250d9777b06251",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
+      "time" : {
+        "start" : 1712846889586,
+        "stop" : 1712846944574,
+        "duration" : 54988
+      }
+    }, {
       "uid" : "503194b9e813a959",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -177,14 +254,23 @@
   },
   "4ee0866f69dbc33bde9b60a266cd3850" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "1df1912ad4694f7e",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846877458,
+        "stop" : 1712846938347,
+        "duration" : 60889
+      }
+    }, {
       "uid" : "70ca518499f98301",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -200,11 +286,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "920127ba90d29788",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846847176,
+        "stop" : 1712846851370,
+        "duration" : 4194
+      }
+    }, {
       "uid" : "716e7c1ce84a9e90",
       "status" : "passed",
       "time" : {
@@ -217,13 +311,22 @@
   "feb234a2610f86fe5062ce661dd64dcf" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "9738acbde4fa5ac7",
+      "status" : "broken",
+      "statusDetails" : "com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field \"emailConfirmationValid\" (class model.Customer.FieldErrorsRegister), not marked as ignorable (10 known properties: \"emailConfirmation\", \"loginPwd\", \"phoneNumber\", \"loginPwdConfirmation\", \"name\", \"email\", \"transactionPwd\", \"transactionPwdConfirmation\", \"consentOpt\", \"document\"])\n at [Source: (String)\"{\"status\":400,\"error\":\"VALIDATION_ERROR\",\"timestamp\":1712846912354,\"fieldErrors\":{\"emailConfirmationValid\":\"O e-mail e a confirmação de e-mail devem ser iguais.\",\"emailConfirmation\":\"Confirmação de e-mail é obrigatória.\"}}\"; line: 1, column: 109] (through reference chain: model.GenericErrorResponse[\"fieldErrors\"]->model.Customer.FieldErrorsRegister[\"emailConfirmationValid\"])",
+      "time" : {
+        "start" : 1712846912197,
+        "stop" : 1712846912401,
+        "duration" : 204
+      }
+    }, {
       "uid" : "b6c63ebd72189958",
       "status" : "broken",
       "statusDetails" : "com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field \"emailConfirmationValid\" (class model.Customer.FieldErrorsRegister), not marked as ignorable (10 known properties: \"emailConfirmation\", \"loginPwd\", \"phoneNumber\", \"loginPwdConfirmation\", \"name\", \"email\", \"transactionPwd\", \"transactionPwdConfirmation\", \"consentOpt\", \"document\"])\n at [Source: (String)\"{\"status\":400,\"error\":\"VALIDATION_ERROR\",\"timestamp\":1712846413348,\"fieldErrors\":{\"emailConfirmationValid\":\"O e-mail e a confirmação de e-mail devem ser iguais.\",\"emailConfirmation\":\"Confirmação de e-mail é obrigatória.\"}}\"; line: 1, column: 109] (through reference chain: model.GenericErrorResponse[\"fieldErrors\"]->model.Customer.FieldErrorsRegister[\"emailConfirmationValid\"])",
@@ -236,14 +339,23 @@
   },
   "c2119844908dc8e652a01c9461c943ad" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "4283fcd8bab4d4f0",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
+      "time" : {
+        "start" : 1712846847084,
+        "stop" : 1712846877079,
+        "duration" : 29995
+      }
+    }, {
       "uid" : "ed7b6965425c1fd9",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -259,11 +371,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "14469db75f11c160",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846895309,
+        "stop" : 1712846895503,
+        "duration" : 194
+      }
+    }, {
       "uid" : "dd7c6e57ec7e1e39",
       "status" : "passed",
       "time" : {
@@ -278,11 +398,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "2ec86992a3c1eabf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846935705,
+        "stop" : 1712846935971,
+        "duration" : 266
+      }
+    }, {
       "uid" : "4bcd7e6e247c3c21",
       "status" : "passed",
       "time" : {
@@ -294,14 +422,23 @@
   },
   "91de56712d96d7146584601eb97ec1f2" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "a538e87b65909e05",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846904767,
+        "stop" : 1712846955896,
+        "duration" : 51129
+      }
+    }, {
       "uid" : "7d0de51a6ba5afd2",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -317,11 +454,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "6e0a9d8288267262",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846874359,
+        "stop" : 1712846935490,
+        "duration" : 61131
+      }
+    }, {
       "uid" : "b3e1ad8015f9b782",
       "status" : "passed",
       "time" : {
@@ -336,11 +481,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "a2d53c85987ceed6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846865685,
+        "stop" : 1712846973043,
+        "duration" : 107358
+      }
+    }, {
       "uid" : "302f5b149dd342f9",
       "status" : "passed",
       "time" : {
@@ -355,11 +508,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "c6579e03217e7628",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846847164,
+        "stop" : 1712846851288,
+        "duration" : 4124
+      }
+    }, {
       "uid" : "592fcabbcadfa3f8",
       "status" : "passed",
       "time" : {
@@ -371,14 +532,23 @@
   },
   "b0b4ff49a0ac832e6b5b08d6fbed202e" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "a78edda3edc395a6",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846857268,
+        "stop" : 1712846917781,
+        "duration" : 60513
+      }
+    }, {
       "uid" : "80c41c4281bb987b",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -391,14 +561,23 @@
   },
   "4e332846612556cfc0380d70d206ff8b" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "df12281ec95ad286",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846936188,
+        "stop" : 1712846978980,
+        "duration" : 42792
+      }
+    }, {
       "uid" : "4234283e761518b6",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -414,11 +593,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "cfa5193ef31a8080",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846851291,
+        "stop" : 1712846851916,
+        "duration" : 625
+      }
+    }, {
       "uid" : "11abf8f7f95ab0e8",
       "status" : "passed",
       "time" : {
@@ -433,11 +620,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "ad51fd554916ce42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846889377,
+        "stop" : 1712846889583,
+        "duration" : 206
+      }
+    }, {
       "uid" : "57debd18281931f2",
       "status" : "passed",
       "time" : {
@@ -452,11 +647,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "6ea8b7c55c0f8cb9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846903925,
+        "stop" : 1712846904281,
+        "duration" : 356
+      }
+    }, {
       "uid" : "e53faa867dc87305",
       "status" : "passed",
       "time" : {
@@ -468,14 +671,23 @@
   },
   "bb175f505db6c5477276ee2d774b8012" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "3bc7ad472bc90376",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846851851,
+        "stop" : 1712846903349,
+        "duration" : 51498
+      }
+    }, {
       "uid" : "6616fa1266218a7e",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -491,11 +703,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "f30abeb99805318f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846939673,
+        "stop" : 1712846939879,
+        "duration" : 206
+      }
+    }, {
       "uid" : "11d1048c947b9bdf",
       "status" : "passed",
       "time" : {
@@ -507,14 +727,23 @@
   },
   "fb752887f6663b3b428a9c51ee126e82" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "fa061f361952a628",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846847173,
+        "stop" : 1712846885482,
+        "duration" : 38309
+      }
+    }, {
       "uid" : "b6ee6bf84fbc6200",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -527,14 +756,23 @@
   },
   "ed6a8f4b7e10c83aebd7035868aa9f03" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "f9db8b5718395688",
+      "status" : "failed",
+      "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <A senha de transação deve ter exatamente 4 dígitos.> but was: <A confirmação da senha de transação deve ter exatamente 4 dígitos.>",
+      "time" : {
+        "start" : 1712846847140,
+        "stop" : 1712846851475,
+        "duration" : 4335
+      }
+    }, {
       "uid" : "1639fec61e723be8",
       "status" : "failed",
       "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <A senha de transação deve ter exatamente 4 dígitos.> but was: <A confirmação da senha de transação deve ter exatamente 4 dígitos.>",
@@ -547,14 +785,23 @@
   },
   "68ac4b8097b81a48d2550bc679dfac51" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "c50e08905e75e07f",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846912189,
+        "stop" : 1712846961586,
+        "duration" : 49397
+      }
+    }, {
       "uid" : "78e46f53f14d4042",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -567,14 +814,23 @@
   },
   "397c0fdedae8c8c0f90ebf179f48cc17" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "17b8279426bd70c",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846912404,
+        "stop" : 1712846964356,
+        "duration" : 51952
+      }
+    }, {
       "uid" : "6213127c172c3057",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -590,11 +846,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "e5c4d10a856f50bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846847084,
+        "stop" : 1712846889374,
+        "duration" : 42290
+      }
+    }, {
       "uid" : "1ca565bb4af0c26d",
       "status" : "passed",
       "time" : {
@@ -606,14 +870,23 @@
   },
   "ea27ccbd712b7ba79da42b8700d3b89a" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "432676cbaee0551d",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846852195,
+        "stop" : 1712846912187,
+        "duration" : 59992
+      }
+    }, {
       "uid" : "45c75adab6a723d1",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -629,11 +902,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "1d3f82ebf41299b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846847084,
+        "stop" : 1712846851278,
+        "duration" : 4194
+      }
+    }, {
       "uid" : "2235b7b06c652206",
       "status" : "passed",
       "time" : {
@@ -645,14 +926,23 @@
   },
   "26108ed87940a54f90f33d8e1295039" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "55299546c68cc271",
+      "status" : "failed",
+      "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <O documento não pode conter caracteres especiais.> but was: <O documento deve ter exatamente 11 dígitos.>",
+      "time" : {
+        "start" : 1712846924174,
+        "stop" : 1712846924388,
+        "duration" : 214
+      }
+    }, {
       "uid" : "223cd1049c09c6f5",
       "status" : "failed",
       "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <O documento não pode conter caracteres especiais.> but was: <O documento deve ter exatamente 11 dígitos.>",
@@ -668,11 +958,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d0c15c7342eaa30c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846923908,
+        "stop" : 1712846924171,
+        "duration" : 263
+      }
+    }, {
       "uid" : "d503a00f425adc68",
       "status" : "passed",
       "time" : {
@@ -687,11 +985,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "8dce15bc5f63ab40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846847107,
+        "stop" : 1712846852078,
+        "duration" : 4971
+      }
+    }, {
       "uid" : "f99c4574509e685b",
       "status" : "passed",
       "time" : {
@@ -706,11 +1012,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "1d8ca02c332b276",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846938720,
+        "stop" : 1712846938891,
+        "duration" : 171
+      }
+    }, {
       "uid" : "4c19049bdedc52c8",
       "status" : "passed",
       "time" : {
@@ -722,14 +1036,23 @@
   },
   "75a5e63985b4c8a5a3f9d1f47ed5e554" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "951eb14a2a434658",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
+      "time" : {
+        "start" : 1712846847150,
+        "stop" : 1712846938879,
+        "duration" : 91729
+      }
+    }, {
       "uid" : "5794e543b46116b9",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
@@ -745,11 +1068,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "a0290091d5b4b6b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846885486,
+        "stop" : 1712846941947,
+        "duration" : 56461
+      }
+    }, {
       "uid" : "6722b8eb9b1dfad1",
       "status" : "passed",
       "time" : {
@@ -764,11 +1095,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "7c518cc548e43279",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846895114,
+        "stop" : 1712846895302,
+        "duration" : 188
+      }
+    }, {
       "uid" : "a1963aa86aa2d2f5",
       "status" : "passed",
       "time" : {
@@ -780,14 +1119,23 @@
   },
   "1371b8b03ef0befbf11e17bcd773b033" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "2ecac5d57490eccd",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846897997,
+        "stop" : 1712846953146,
+        "duration" : 55149
+      }
+    }, {
       "uid" : "73ebb35454171405",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -800,14 +1148,23 @@
   },
   "75332daca7ca738d7995c39ad85081a1" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "c2468feccc5eb2b2",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
+      "time" : {
+        "start" : 1712846851495,
+        "stop" : 1712846897994,
+        "duration" : 46499
+      }
+    }, {
       "uid" : "d1fc4a041fb9406b",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -820,14 +1177,23 @@
   },
   "f45ec9eec11d5b11ecaaa800ca49a873" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "63ca105b98ca8b8c",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846847084,
+        "stop" : 1712846874356,
+        "duration" : 27272
+      }
+    }, {
       "uid" : "6047fd324685d69a",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -840,14 +1206,23 @@
   },
   "151e83d7f095056b7e65a14392a26983" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d40bf87da59679c",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
+      "time" : {
+        "start" : 1712846854604,
+        "stop" : 1712846915018,
+        "duration" : 60414
+      }
+    }, {
       "uid" : "b393d5fe582251b4",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -861,13 +1236,22 @@
   "730bf557b3db04247c4fa25b46b03506" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "a64109b42b705d44",
+      "status" : "broken",
+      "statusDetails" : "com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field \"emailConfirmationValid\" (class model.Customer.FieldErrorsRegister), not marked as ignorable (10 known properties: \"emailConfirmation\", \"loginPwd\", \"phoneNumber\", \"loginPwdConfirmation\", \"name\", \"email\", \"transactionPwd\", \"transactionPwdConfirmation\", \"consentOpt\", \"document\"])\n at [Source: (String)\"{\"status\":400,\"error\":\"VALIDATION_ERROR\",\"timestamp\":1712846936128,\"fieldErrors\":{\"emailConfirmationValid\":\"O e-mail e a confirmação de e-mail devem ser iguais.\"}}\"; line: 1, column: 109] (through reference chain: model.GenericErrorResponse[\"fieldErrors\"]->model.Customer.FieldErrorsRegister[\"emailConfirmationValid\"])",
+      "time" : {
+        "start" : 1712846935975,
+        "stop" : 1712846936185,
+        "duration" : 210
+      }
+    }, {
       "uid" : "fd32af33928e5c64",
       "status" : "broken",
       "statusDetails" : "com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field \"emailConfirmationValid\" (class model.Customer.FieldErrorsRegister), not marked as ignorable (10 known properties: \"emailConfirmation\", \"loginPwd\", \"phoneNumber\", \"loginPwdConfirmation\", \"name\", \"email\", \"transactionPwd\", \"transactionPwdConfirmation\", \"consentOpt\", \"document\"])\n at [Source: (String)\"{\"status\":400,\"error\":\"VALIDATION_ERROR\",\"timestamp\":1712846422919,\"fieldErrors\":{\"emailConfirmationValid\":\"O e-mail e a confirmação de e-mail devem ser iguais.\"}}\"; line: 1, column: 109] (through reference chain: model.GenericErrorResponse[\"fieldErrors\"]->model.Customer.FieldErrorsRegister[\"emailConfirmationValid\"])",
@@ -883,11 +1267,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "272672c092f93384",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846938893,
+        "stop" : 1712846939173,
+        "duration" : 280
+      }
+    }, {
       "uid" : "720fc5b8cb1d352a",
       "status" : "passed",
       "time" : {
@@ -902,11 +1294,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "dccdc0475b8eed03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846851191,
+        "stop" : 1712846851656,
+        "duration" : 465
+      }
+    }, {
       "uid" : "e072d9f0734eda61",
       "status" : "passed",
       "time" : {
@@ -921,11 +1321,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "291fa313643f8801",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846904283,
+        "stop" : 1712846904764,
+        "duration" : 481
+      }
+    }, {
       "uid" : "f08aa363e51bdfc7",
       "status" : "passed",
       "time" : {
@@ -937,14 +1345,23 @@
   },
   "95fff0c30ded3ce2cf9afa0a2183a584" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "1b9ccae62a073f46",
+      "status" : "failed",
+      "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <A senha de transação deve ter exatamente 4 dígitos.> but was: <A confirmação da senha de transação deve ter exatamente 4 dígitos.>",
+      "time" : {
+        "start" : 1712846938350,
+        "stop" : 1712846938538,
+        "duration" : 188
+      }
+    }, {
       "uid" : "71089c38a2fedbc3",
       "status" : "failed",
       "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <A senha de transação deve ter exatamente 4 dígitos.> but was: <A confirmação da senha de transação deve ter exatamente 4 dígitos.>",
@@ -957,14 +1374,23 @@
   },
   "4790669be2b6bd1869168969c1a730a5" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "c1844868ae5800ae",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846939881,
+        "stop" : 1712846984540,
+        "duration" : 44659
+      }
+    }, {
       "uid" : "fc5cd1204fc455cf",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -977,14 +1403,23 @@
   },
   "fe8f5a471f66e21c3bf97c900696c956" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "321037be1945710d",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846895792,
+        "stop" : 1712846950382,
+        "duration" : 54590
+      }
+    }, {
       "uid" : "10be95515cc635d1",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -998,13 +1433,22 @@
   "da9e258629c059a3885dab07ed270668" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "7aeb024c2b19e17a",
+      "status" : "broken",
+      "statusDetails" : "com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field \"emailConfirmationValid\" (class model.Customer.FieldErrorsRegister), not marked as ignorable (10 known properties: \"emailConfirmation\", \"loginPwd\", \"phoneNumber\", \"loginPwdConfirmation\", \"name\", \"email\", \"transactionPwd\", \"transactionPwdConfirmation\", \"consentOpt\", \"document\"])\n at [Source: (String)\"{\"status\":400,\"error\":\"VALIDATION_ERROR\",\"timestamp\":1712846851718,\"fieldErrors\":{\"emailConfirmationValid\":\"O e-mail e a confirmação de e-mail devem ser iguais.\"}}\"; line: 1, column: 109] (through reference chain: model.GenericErrorResponse[\"fieldErrors\"]->model.Customer.FieldErrorsRegister[\"emailConfirmationValid\"])",
+      "time" : {
+        "start" : 1712846851211,
+        "stop" : 1712846851946,
+        "duration" : 735
+      }
+    }, {
       "uid" : "2621a81369ed8566",
       "status" : "broken",
       "statusDetails" : "com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field \"emailConfirmationValid\" (class model.Customer.FieldErrorsRegister), not marked as ignorable (10 known properties: \"emailConfirmation\", \"loginPwd\", \"phoneNumber\", \"loginPwdConfirmation\", \"name\", \"email\", \"transactionPwd\", \"transactionPwdConfirmation\", \"consentOpt\", \"document\"])\n at [Source: (String)\"{\"status\":400,\"error\":\"VALIDATION_ERROR\",\"timestamp\":1712846346223,\"fieldErrors\":{\"emailConfirmationValid\":\"O e-mail e a confirmação de e-mail devem ser iguais.\"}}\"; line: 1, column: 109] (through reference chain: model.GenericErrorResponse[\"fieldErrors\"]->model.Customer.FieldErrorsRegister[\"emailConfirmationValid\"])",
@@ -1017,14 +1461,23 @@
   },
   "9074ecc7d859d6f15ef5aa4f3bb5866f" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "3b84311e1c173e17",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846863145,
+        "stop" : 1712846923746,
+        "duration" : 60601
+      }
+    }, {
       "uid" : "230d7b120aba9929",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -1040,11 +1493,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "457d2dbb2340a36e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846877272,
+        "stop" : 1712846877454,
+        "duration" : 182
+      }
+    }, {
       "uid" : "4f25f3becb8d506a",
       "status" : "passed",
       "time" : {
@@ -1056,14 +1517,23 @@
   },
   "dbe608fb6bba934e7d65c5a39a12eebd" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "e5bf812f5c3aecf6",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846851953,
+        "stop" : 1712846909483,
+        "duration" : 57530
+      }
+    }, {
       "uid" : "7607b2c328485beb",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -1079,11 +1549,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "a0f0b257e6d37535",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846903352,
+        "stop" : 1712846903534,
+        "duration" : 182
+      }
+    }, {
       "uid" : "1cbaa535f41b225a",
       "status" : "passed",
       "time" : {
@@ -1095,14 +1573,23 @@
   },
   "72000396c61f8bdb28ee1d8ab4403a72" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "8c0ce63c114c4616",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846847133,
+        "stop" : 1712846862853,
+        "duration" : 15720
+      }
+    }, {
       "uid" : "a9e957b73c0bd753",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -1115,14 +1602,23 @@
   },
   "3dc24d339e5443a97a6cc384134d0fe4" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "e859de8c2372c008",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846847155,
+        "stop" : 1712846857263,
+        "duration" : 10108
+      }
+    }, {
       "uid" : "47e813075be8132b",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -1135,14 +1631,23 @@
   },
   "84b7779483d431f5ec97c32ca4421106" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "61504572084c778f",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846942172,
+        "stop" : 1712846987274,
+        "duration" : 45102
+      }
+    }, {
       "uid" : "f1308641cd9506d4",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -1155,14 +1660,23 @@
   },
   "89bb14df5889b202d36a7defa91936a1" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "5776144299bbca7d",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
+      "time" : {
+        "start" : 1712846871730,
+        "stop" : 1712846976081,
+        "duration" : 104351
+      }
+    }, {
       "uid" : "f24d275cbf1e7989",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
@@ -1175,14 +1689,23 @@
   },
   "d04747edecaa18c6bdf77521ea7e3cfa" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "2feb110e8981c242",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846929983,
+        "stop" : 1712846975872,
+        "duration" : 45889
+      }
+    }, {
       "uid" : "7482b503a06a2a3c",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -1198,11 +1721,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "5daea7bedcd31d3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846903541,
+        "stop" : 1712846903741,
+        "duration" : 200
+      }
+    }, {
       "uid" : "5e10a74f361bdb4d",
       "status" : "passed",
       "time" : {
@@ -1214,14 +1745,23 @@
   },
   "94f37516053245f35793f356c677bfef" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "24b35ce9577dfd66",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846915020,
+        "stop" : 1712846967152,
+        "duration" : 52132
+      }
+    }, {
       "uid" : "1c46cd56257b34fe",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -1234,14 +1774,23 @@
   },
   "f84bd0145288b4ac833d4f36e61e0544" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "14f448277657e0a3",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846851295,
+        "stop" : 1712846895110,
+        "duration" : 43815
+      }
+    }, {
       "uid" : "e5696389d4c4878b",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -1254,14 +1803,23 @@
   },
   "d973592f79be7522016a4104e296be45" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "51b83fba700d57ea",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846847142,
+        "stop" : 1712846865681,
+        "duration" : 18539
+      }
+    }, {
       "uid" : "1847f167baeb648c",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -1277,11 +1835,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "6a2ec52e940bfaf0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846847100,
+        "stop" : 1712846860404,
+        "duration" : 13304
+      }
+    }, {
       "uid" : "a5cc7bce65118c7c",
       "status" : "passed",
       "time" : {
@@ -1296,11 +1862,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "3970067eed71655f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846941950,
+        "stop" : 1712846942170,
+        "duration" : 220
+      }
+    }, {
       "uid" : "53c57a4e08e6b30f",
       "status" : "passed",
       "time" : {
@@ -1315,11 +1889,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "79d56065a191be37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846851294,
+        "stop" : 1712846851848,
+        "duration" : 554
+      }
+    }, {
       "uid" : "e275775ec5221486",
       "status" : "passed",
       "time" : {
@@ -1334,11 +1916,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "26c4cc92f182d605",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846847108,
+        "stop" : 1712846868996,
+        "duration" : 21888
+      }
+    }, {
       "uid" : "4dc3e14f69d4798",
       "status" : "passed",
       "time" : {
@@ -1353,11 +1943,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "12bd1d62e1563f4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846923751,
+        "stop" : 1712846923906,
+        "duration" : 155
+      }
+    }, {
       "uid" : "3fcc32a6fe51fb81",
       "status" : "passed",
       "time" : {
@@ -1370,13 +1968,22 @@
   "28d7c0104bdced5129fcf781b241f870" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "9fe5e3c134aecb91",
+      "status" : "broken",
+      "statusDetails" : "com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field \"transactionPwdConfirmationValid\" (class model.Customer.FieldErrorsRegister), not marked as ignorable (10 known properties: \"emailConfirmation\", \"loginPwd\", \"phoneNumber\", \"loginPwdConfirmation\", \"name\", \"email\", \"transactionPwd\", \"transactionPwdConfirmation\", \"consentOpt\", \"document\"])\n at [Source: (String)\"{\"status\":400,\"error\":\"VALIDATION_ERROR\",\"timestamp\":1712846939325,\"fieldErrors\":{\"transactionPwdConfirmationValid\":\"A senha de transação e a confirmação devem ser iguais.\"}}\"; line: 1, column: 118] (through reference chain: model.GenericErrorResponse[\"fieldErrors\"]->model.Customer.FieldErrorsRegister[\"transactionPwdConfirmationValid\"])",
+      "time" : {
+        "start" : 1712846939176,
+        "stop" : 1712846939384,
+        "duration" : 208
+      }
+    }, {
       "uid" : "2435e3e0d23878b1",
       "status" : "broken",
       "statusDetails" : "com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field \"transactionPwdConfirmationValid\" (class model.Customer.FieldErrorsRegister), not marked as ignorable (10 known properties: \"emailConfirmation\", \"loginPwd\", \"phoneNumber\", \"loginPwdConfirmation\", \"name\", \"email\", \"transactionPwd\", \"transactionPwdConfirmation\", \"consentOpt\", \"document\"])\n at [Source: (String)\"{\"status\":400,\"error\":\"VALIDATION_ERROR\",\"timestamp\":1712846425822,\"fieldErrors\":{\"transactionPwdConfirmationValid\":\"A senha de transação e a confirmação devem ser iguais.\"}}\"; line: 1, column: 118] (through reference chain: model.GenericErrorResponse[\"fieldErrors\"]->model.Customer.FieldErrorsRegister[\"transactionPwdConfirmationValid\"])",
@@ -1392,11 +1999,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "37716db3544de3f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846852083,
+        "stop" : 1712846956111,
+        "duration" : 104028
+      }
+    }, {
       "uid" : "398ee3b3424ac8c5",
       "status" : "passed",
       "time" : {
@@ -1408,14 +2023,23 @@
   },
   "7ae16c10475bb2de7c035027106a4b3f" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "fa9fc1d044951fe7",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846847086,
+        "stop" : 1712846854596,
+        "duration" : 7510
+      }
+    }, {
       "uid" : "cd552378bc161eac",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -1431,11 +2055,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "b2a8e8320ca7745f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846903743,
+        "stop" : 1712846903922,
+        "duration" : 179
+      }
+    }, {
       "uid" : "d9a6d46489a8f401",
       "status" : "passed",
       "time" : {
@@ -1447,14 +2079,23 @@
   },
   "2cb997034afd2e1b37daf711ced0cbc6" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "35ce110ea7290ffa",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <401> but was <404>.\n",
+      "time" : {
+        "start" : 1712846860417,
+        "stop" : 1712846970153,
+        "duration" : 109736
+      }
+    }, {
       "uid" : "e38142dd83254cff",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <401> but was <404>.\n",
@@ -1467,14 +2108,23 @@
   },
   "19e86c28f6f960b809e642b7cb8152c2" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "fba43e4e589a8d5",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846924390,
+        "stop" : 1712846972831,
+        "duration" : 48441
+      }
+    }, {
       "uid" : "4debed28f2091c1c",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -1487,14 +2137,23 @@
   },
   "f7c63f2ef8698d735a46a2883f038d15" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "39d561cffd754df7",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846851665,
+        "stop" : 1712846900645,
+        "duration" : 48980
+      }
+    }, {
       "uid" : "145572870401635f",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -1510,11 +2169,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "b5a13fd34e890efb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846868999,
+        "stop" : 1712846929981,
+        "duration" : 60982
+      }
+    }, {
       "uid" : "9c6f734071e44f6a",
       "status" : "passed",
       "time" : {
@@ -1529,11 +2196,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "1ad98da5d8832b3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846847093,
+        "stop" : 1712846851112,
+        "duration" : 4019
+      }
+    }, {
       "uid" : "214569b8c14c6637",
       "status" : "passed",
       "time" : {
@@ -1545,14 +2220,23 @@
   },
   "1c3fa68bc06f39324e736e84fa74e6e" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "3e39bd5aae1c7c41",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846917785,
+        "stop" : 1712846969930,
+        "duration" : 52145
+      }
+    }, {
       "uid" : "1604352b333feac6",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -1566,13 +2250,22 @@
   "ad8cb4292e035bf205205f584aefac7c" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "1faae51edd3b6ad4",
+      "status" : "broken",
+      "statusDetails" : "com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field \"transactionPwdConfirmationValid\" (class model.Customer.FieldErrorsRegister), not marked as ignorable (10 known properties: \"emailConfirmation\", \"loginPwd\", \"phoneNumber\", \"loginPwdConfirmation\", \"name\", \"email\", \"transactionPwd\", \"transactionPwdConfirmation\", \"consentOpt\", \"document\"])\n at [Source: (String)\"{\"status\":400,\"error\":\"VALIDATION_ERROR\",\"timestamp\":1712846895726,\"fieldErrors\":{\"transactionPwdConfirmation\":\"Confirmação da senha de transação é obrigatória.\",\"transactionPwdConfirmationValid\":\"A senha de transação e a confirmação devem ser iguais.\"}}\"; line: 1, column: 198] (through reference chain: model.GenericErrorResponse[\"fieldErrors\"]->model.Customer.FieldErrorsRegister[\"transactionPwdConfirmationValid\"])",
+      "time" : {
+        "start" : 1712846895505,
+        "stop" : 1712846895789,
+        "duration" : 284
+      }
+    }, {
       "uid" : "67fb142df69529e5",
       "status" : "broken",
       "statusDetails" : "com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field \"transactionPwdConfirmationValid\" (class model.Customer.FieldErrorsRegister), not marked as ignorable (10 known properties: \"emailConfirmation\", \"loginPwd\", \"phoneNumber\", \"loginPwdConfirmation\", \"name\", \"email\", \"transactionPwd\", \"transactionPwdConfirmation\", \"consentOpt\", \"document\"])\n at [Source: (String)\"{\"status\":400,\"error\":\"VALIDATION_ERROR\",\"timestamp\":1712846393718,\"fieldErrors\":{\"transactionPwdConfirmation\":\"Confirmação da senha de transação é obrigatória.\",\"transactionPwdConfirmationValid\":\"A senha de transação e a confirmação devem ser iguais.\"}}\"; line: 1, column: 198] (through reference chain: model.GenericErrorResponse[\"fieldErrors\"]->model.Customer.FieldErrorsRegister[\"transactionPwdConfirmationValid\"])",
@@ -1588,11 +2281,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "65dff71c968b3048",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846938540,
+        "stop" : 1712846938718,
+        "duration" : 178
+      }
+    }, {
       "uid" : "37e01e53239d5ac4",
       "status" : "passed",
       "time" : {
@@ -1607,11 +2308,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "46239ce55299525a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846847170,
+        "stop" : 1712846851280,
+        "duration" : 4110
+      }
+    }, {
       "uid" : "e331781f5335cd7",
       "status" : "passed",
       "time" : {
@@ -1626,11 +2335,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "7455a6c0961eed3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712846847125,
+        "stop" : 1712846871726,
+        "duration" : 24601
+      }
+    }, {
       "uid" : "23eae7116c4224f6",
       "status" : "passed",
       "time" : {
@@ -1642,14 +2359,23 @@
   },
   "2365559f4f77c527424b5b062a6c55c2" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "a5193bfe2dc7dd35",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
+      "time" : {
+        "start" : 1712846909485,
+        "stop" : 1712846958824,
+        "duration" : 49339
+      }
+    }, {
       "uid" : "52ad8360b038788e",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -1663,13 +2389,22 @@
   "283dafddbb7bdc46f4e51b9512e669c4" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "c68ec581801a10c8",
+      "status" : "broken",
+      "statusDetails" : "com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field \"transactionPwdConfirmationValid\" (class model.Customer.FieldErrorsRegister), not marked as ignorable (10 known properties: \"emailConfirmation\", \"loginPwd\", \"phoneNumber\", \"loginPwdConfirmation\", \"name\", \"email\", \"transactionPwd\", \"transactionPwdConfirmation\", \"consentOpt\", \"document\"])\n at [Source: (String)\"{\"status\":400,\"error\":\"VALIDATION_ERROR\",\"timestamp\":1712846877191,\"fieldErrors\":{\"transactionPwd\":\"Confirmação da senha de transação é obrigatória.\",\"transactionPwdConfirmationValid\":\"A senha de transação e a confirmação devem ser iguais.\"}}\"; line: 1, column: 186] (through reference chain: model.GenericErrorResponse[\"fieldErrors\"]->model.Customer.FieldErrorsRegister[\"transactionPwdConfirmationValid\"])",
+      "time" : {
+        "start" : 1712846877082,
+        "stop" : 1712846877250,
+        "duration" : 168
+      }
+    }, {
       "uid" : "ee77dd0fbcd11e5f",
       "status" : "broken",
       "statusDetails" : "com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field \"transactionPwdConfirmationValid\" (class model.Customer.FieldErrorsRegister), not marked as ignorable (10 known properties: \"emailConfirmation\", \"loginPwd\", \"phoneNumber\", \"loginPwdConfirmation\", \"name\", \"email\", \"transactionPwd\", \"transactionPwdConfirmation\", \"consentOpt\", \"document\"])\n at [Source: (String)\"{\"status\":400,\"error\":\"VALIDATION_ERROR\",\"timestamp\":1712846381555,\"fieldErrors\":{\"transactionPwd\":\"Confirmação da senha de transação é obrigatória.\",\"transactionPwdConfirmationValid\":\"A senha de transação e a confirmação devem ser iguais.\"}}\"; line: 1, column: 186] (through reference chain: model.GenericErrorResponse[\"fieldErrors\"]->model.Customer.FieldErrorsRegister[\"transactionPwdConfirmationValid\"])",
@@ -1682,14 +2417,23 @@
   },
   "c03eec28ab7381b60e3c6c8eebdee448" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "e47c5d2d26b6d386",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712846892316,
+        "stop" : 1712846947379,
+        "duration" : 55063
+      }
+    }, {
       "uid" : "d4031f9e86d17a9a",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",

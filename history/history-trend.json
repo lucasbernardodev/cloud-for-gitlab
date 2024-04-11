@@ -9,6 +9,15 @@
   }
 }, {
   "data" : {
+    "failed" : 41,
+    "broken" : 7,
+    "skipped" : 0,
+    "passed" : 39,
+    "unknown" : 0,
+    "total" : 87
+  }
+}, {
+  "data" : {
     "failed" : 0,
     "broken" : 0,
     "skipped" : 0,
