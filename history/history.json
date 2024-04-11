@@ -1,14 +1,23 @@
 {
   "151e83d7f095056b7e65a14392a26983" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 2,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "dd9f70917fde754a",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
+      "time" : {
+        "start" : 1712795402459,
+        "stop" : 1712795408098,
+        "duration" : 5639
+      }
+    }, {
       "uid" : "8a25de0144e7f204",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -37,14 +46,23 @@
   },
   "c2119844908dc8e652a01c9461c943ad" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 2,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "5ce586809736e97a",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
+      "time" : {
+        "start" : 1712795411892,
+        "stop" : 1712795414896,
+        "duration" : 3004
+      }
+    }, {
       "uid" : "f364801d5a0b0f5c",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -73,14 +91,23 @@
   },
   "89bb14df5889b202d36a7defa91936a1" : {
     "statistic" : {
-      "failed" : 3,
+      "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "529a7b30314c9378",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
+      "time" : {
+        "start" : 1712795408193,
+        "stop" : 1712795411884,
+        "duration" : 3691
+      }
+    }, {
       "uid" : "95881989aba80fe8",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
