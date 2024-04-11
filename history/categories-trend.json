@@ -1,3 +1,8 @@
 [ {
+  "data" : {
+    "Product defects" : 41,
+    "Test defects" : 7
+  }
+}, {
   "data" : { }
 } ]
