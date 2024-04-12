@@ -44,14 +44,23 @@
   },
   "a2e38962839bac6a30edd1924b9965c" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "e1ecaa2efba963da",
+      "status" : "failed",
+      "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <Número de telefone é obrigatório.> but was: <E-mail é obrigatório.>",
+      "time" : {
+        "start" : 1712933723345,
+        "stop" : 1712933723687,
+        "duration" : 342
+      }
+    }, {
       "uid" : "cfbdb9031b046e08",
       "status" : "failed",
       "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <Número de telefone é obrigatório.> but was: <E-mail é obrigatório.>",
@@ -157,11 +166,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "808af86b1feaf5a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933432001,
+        "stop" : 1712933535754,
+        "duration" : 103753
+      }
+    }, {
       "uid" : "b845d433f73b59f5",
       "status" : "passed",
       "time" : {
@@ -173,14 +190,23 @@
   },
   "68def413557c9e1c7b4dc75c292ffe8a" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d0e64dd3a21ca586",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
+      "time" : {
+        "start" : 1712933574278,
+        "stop" : 1712933692685,
+        "duration" : 118407
+      }
+    }, {
       "uid" : "5fec5e5515eabe75",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
@@ -196,11 +222,19 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "4de12980771dbff6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933884004,
+        "stop" : 1712934002750,
+        "duration" : 118746
+      }
+    }, {
       "uid" : "7b66167388c79dc5",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
@@ -216,11 +250,19 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "841c861fb0dba149",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933674911,
+        "stop" : 1712933734060,
+        "duration" : 59149
+      }
+    }, {
       "uid" : "2b2945612fbfbec7",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <404> but was <500>.\n",
@@ -233,14 +275,23 @@
   },
   "b4f075c38e1d2488aa257d5ee414b570" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "5b55e5c23820fdf5",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712933408898,
+        "stop" : 1712933469389,
+        "duration" : 60491
+      }
+    }, {
       "uid" : "c7ca34e085b9d98f",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -299,11 +350,19 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "6bc9bf40c22ce898",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933625833,
+        "stop" : 1712933695376,
+        "duration" : 69543
+      }
+    }, {
       "uid" : "7aefa96a9169499d",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -319,11 +378,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "f348f632ca58e907",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933657669,
+        "stop" : 1712933658010,
+        "duration" : 341
+      }
+    }, {
       "uid" : "41e6f26479cf662",
       "status" : "passed",
       "time" : {
@@ -335,14 +402,23 @@
   },
   "cc35acdb44afdf41d304df01c1918e01" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "305c31b432b59efd",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <500>.\n",
+      "time" : {
+        "start" : 1712933620747,
+        "stop" : 1712933804096,
+        "duration" : 183349
+      }
+    }, {
       "uid" : "e0fdb654123f1098",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -355,14 +431,23 @@
   },
   "5e2690c591d8c6f7fef3f40cea7464e1" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "79ef72637793672d",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <500>.\n",
+      "time" : {
+        "start" : 1712933734064,
+        "stop" : 1712933859604,
+        "duration" : 125540
+      }
+    }, {
       "uid" : "a087206df8c1543a",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <500>.\n",
@@ -418,14 +503,23 @@
   },
   "885a2b06137107c0c84f9b8dcda588a" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "34fa7608cec50a83",
+      "status" : "failed",
+      "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <A senha de transação deve ter exatamente 4 dígitos.> but was: <A confirmação da senha de transação deve ter exatamente 4 dígitos.>",
+      "time" : {
+        "start" : 1712933470742,
+        "stop" : 1712933471287,
+        "duration" : 545
+      }
+    }, {
       "uid" : "2b0880a9d16ac0c2",
       "status" : "failed",
       "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <A senha de transação deve ter exatamente 4 dígitos.> but was: <A confirmação da senha de transação deve ter exatamente 4 dígitos.>",
@@ -485,14 +579,23 @@
   },
   "c649d9cfac6e0ac8ab93d82f9542d4fa" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "393a73ca830b026b",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <201>.\n",
+      "time" : {
+        "start" : 1712933535263,
+        "stop" : 1712933606388,
+        "duration" : 71125
+      }
+    }, {
       "uid" : "7860c6855ae25c1a",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -508,11 +611,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "616798f335eb08ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933534552,
+        "stop" : 1712933534895,
+        "duration" : 343
+      }
+    }, {
       "uid" : "25d2c62960d76648",
       "status" : "passed",
       "time" : {
@@ -524,14 +635,23 @@
   },
   "34917561d0a03111138bb4fb132511c6" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "93a2a12c2ce5ec82",
+      "status" : "failed",
+      "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <Senha de Transação é obrigatória.> but was: <Confirmação da senha de transação é obrigatória.>",
+      "time" : {
+        "start" : 1712933606392,
+        "stop" : 1712933607104,
+        "duration" : 712
+      }
+    }, {
       "uid" : "a9ecbc74fe52f93a",
       "status" : "failed",
       "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <Senha de Transação é obrigatória.> but was: <Confirmação da senha de transação é obrigatória.>",
@@ -547,11 +667,19 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "8e1242e37e19e6da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933582524,
+        "stop" : 1712933721971,
+        "duration" : 139447
+      }
+    }, {
       "uid" : "49df53308bafcf89",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <500>.\n",
@@ -564,14 +692,23 @@
   },
   "a9970be5c3e21f5e44689af19cf392b9" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "67bbedc97851490",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
+      "time" : {
+        "start" : 1712933800230,
+        "stop" : 1712933860598,
+        "duration" : 60368
+      }
+    }, {
       "uid" : "88ec64db94f75337",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -584,14 +721,23 @@
   },
   "fb449e38c2ae0a2655e3c6e2796b1dd" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "949b58b471f1eb0f",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
+      "time" : {
+        "start" : 1712933738021,
+        "stop" : 1712933798357,
+        "duration" : 60336
+      }
+    }, {
       "uid" : "23f4544804295f9c",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -650,11 +796,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "b901ab4b9ca6710c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933534193,
+        "stop" : 1712933534547,
+        "duration" : 354
+      }
+    }, {
       "uid" : "fae432e483f31592",
       "status" : "passed",
       "time" : {
@@ -666,14 +820,23 @@
   },
   "9065157f09c18542b1959e0a52268b1f" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "2c01318192ea3ee6",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712933469393,
+        "stop" : 1712933529746,
+        "duration" : 60353
+      }
+    }, {
       "uid" : "d3a80f0596a5d4c6",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -736,11 +899,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "f4284954ce2082a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933468023,
+        "stop" : 1712933506630,
+        "duration" : 38607
+      }
+    }, {
       "uid" : "780dca76587b040c",
       "status" : "passed",
       "time" : {
@@ -752,14 +923,23 @@
   },
   "d1617c26d4561269e49ebcbcdf75448f" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "ec38426b4281187c",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
+      "time" : {
+        "start" : 1712933597237,
+        "stop" : 1712933718644,
+        "duration" : 121407
+      }
+    }, {
       "uid" : "d9f6f3be6975d768",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
@@ -772,14 +952,23 @@
   },
   "3f349c7dae8a95d200351d08b9bf893d" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "b39d794b63789e28",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <201>.\n",
+      "time" : {
+        "start" : 1712933696084,
+        "stop" : 1712933757054,
+        "duration" : 60970
+      }
+    }, {
       "uid" : "96a700bd1c061a0e",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -795,11 +984,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "e561b3151a42b202",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933236459,
+        "stop" : 1712933468016,
+        "duration" : 231557
+      }
+    }, {
       "uid" : "145578591ad383fb",
       "status" : "passed",
       "time" : {
@@ -857,11 +1054,19 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d21fdebefcca49f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933829540,
+        "stop" : 1712933977645,
+        "duration" : 148105
+      }
+    }, {
       "uid" : "592c437b878b1902",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <500>.\n",
@@ -971,11 +1176,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "634f6ca56b539bf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933758184,
+        "stop" : 1712933758876,
+        "duration" : 692
+      }
+    }, {
       "uid" : "d49a1058acb71b5",
       "status" : "passed",
       "time" : {
@@ -987,14 +1200,23 @@
   },
   "a74b076ce673c36d8164cd37859fa146" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d49d0242d9632db8",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
+      "time" : {
+        "start" : 1712933645195,
+        "stop" : 1712933762602,
+        "duration" : 117407
+      }
+    }, {
       "uid" : "33e47005cd822622",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
@@ -1057,11 +1279,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "109c77366364f116",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933236458,
+        "stop" : 1712933468189,
+        "duration" : 231731
+      }
+    }, {
       "uid" : "fd221763e4a80074",
       "status" : "passed",
       "time" : {
@@ -1163,14 +1393,23 @@
   },
   "5becc90dd743c1cb1928d9ef4ccbf14e" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d4d4abe49bfff368",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
+      "time" : {
+        "start" : 1712933859609,
+        "stop" : 1712933919981,
+        "duration" : 60372
+      }
+    }, {
       "uid" : "5a76bb0bf8b88f53",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -1183,14 +1422,23 @@
   },
   "74f77e63df1d2372aeda3f8e782103fd" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "25c93b16794903ea",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <200>.\n",
+      "time" : {
+        "start" : 1712933782701,
+        "stop" : 1712933970514,
+        "duration" : 187813
+      }
+    }, {
       "uid" : "51f0da334db81e05",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <500>.\n",
@@ -1203,14 +1451,23 @@
   },
   "99e409448eefc8f98271d4d88804d7dd" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "cb96c8fab6ced412",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712933535251,
+        "stop" : 1712933596085,
+        "duration" : 60834
+      }
+    }, {
       "uid" : "abe1b959c573ddd7",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -1266,14 +1523,23 @@
   },
   "874f1934249ca02747d7910130dd84f5" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "fc6767924194c439",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <201>.\n",
+      "time" : {
+        "start" : 1712933468518,
+        "stop" : 1712933528142,
+        "duration" : 59624
+      }
+    }, {
       "uid" : "eb0ebd0a696845c7",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -1286,14 +1552,23 @@
   },
   "6fb6d4cd93e5fc984c4194741381ca0b" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "49a58842cc5c2ab6",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712933474891,
+        "stop" : 1712933535260,
+        "duration" : 60369
+      }
+    }, {
       "uid" : "b6a8374413d667de",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -1356,11 +1631,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "46cda2c8bcab78f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933236459,
+        "stop" : 1712933409025,
+        "duration" : 172566
+      }
+    }, {
       "uid" : "fa07970929cc6638",
       "status" : "passed",
       "time" : {
@@ -1375,11 +1658,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "1dd5c4b4c2c7c34c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933656687,
+        "stop" : 1712933657015,
+        "duration" : 328
+      }
+    }, {
       "uid" : "6e913547f6d8dbd4",
       "status" : "passed",
       "time" : {
@@ -1394,11 +1685,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "c8b231a2715cb219",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933408121,
+        "stop" : 1712933408714,
+        "duration" : 593
+      }
+    }, {
       "uid" : "f64197d036f5dfd9",
       "status" : "passed",
       "time" : {
@@ -1679,11 +1978,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "534b00d50631ce15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933625488,
+        "stop" : 1712933625829,
+        "duration" : 341
+      }
+    }, {
       "uid" : "60666c6ab67f0145",
       "status" : "passed",
       "time" : {
@@ -1836,14 +2143,23 @@
   },
   "dd18aae148b51ae13aac6841921fcc1e" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "64f6d4ad243fc645",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
+      "time" : {
+        "start" : 1712933556097,
+        "stop" : 1712933616448,
+        "duration" : 60351
+      }
+    }, {
       "uid" : "6ae2e3a18ca22877",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -1859,11 +2175,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "c8d3d4eeeeeea2a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933757058,
+        "stop" : 1712933757790,
+        "duration" : 732
+      }
+    }, {
       "uid" : "5c6d1476f87a3849",
       "status" : "passed",
       "time" : {
@@ -1875,14 +2199,23 @@
   },
   "ed8b7d88ac5a4bbadd8d42f578fff2eb" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "205c002c77994185",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <500>.\n",
+      "time" : {
+        "start" : 1712933602683,
+        "stop" : 1712933784190,
+        "duration" : 181507
+      }
+    }, {
       "uid" : "3096d9e77293d8f",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -1984,11 +2317,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "615f1649a65e77b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933780158,
+        "stop" : 1712933780878,
+        "duration" : 720
+      }
+    }, {
       "uid" : "e1f52804a653a5f6",
       "status" : "passed",
       "time" : {
@@ -2000,14 +2341,23 @@
   },
   "f4edf44aa9de47083d3f2057f7500741" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "f81a26f3e11e1763",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+      "time" : {
+        "start" : 1712933236458,
+        "stop" : 1712933408202,
+        "duration" : 171744
+      }
+    }, {
       "uid" : "77815ed97fd13301",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
@@ -2067,14 +2417,23 @@
   },
   "bdd16f6b34d41d915acab4af01c6169f" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "b83f50c5aa1f6fbf",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
+      "time" : {
+        "start" : 1712933698822,
+        "stop" : 1712933759168,
+        "duration" : 60346
+      }
+    }, {
       "uid" : "dd14583ff3d04483",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <409> but was <500>.\n",
@@ -2130,14 +2489,23 @@
   },
   "a3e52b9c5863f044b76459210d5944f3" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "ac24c97ea2d7b6f6",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
+      "time" : {
+        "start" : 1712933804102,
+        "stop" : 1712933864833,
+        "duration" : 60731
+      }
+    }, {
       "uid" : "435c3fd04f9f8abc",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
@@ -2150,14 +2518,23 @@
   },
   "e0cc68e2a0f0cafc879b9057bee2fc5a" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "ee2524bcf0df6dee",
+      "status" : "failed",
+      "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <Confirmação de Senha de Transação é obrigatória.> but was: <Confirmação da senha de transação é obrigatória.>",
+      "time" : {
+        "start" : 1712933658387,
+        "stop" : 1712933658742,
+        "duration" : 355
+      }
+    }, {
       "uid" : "fa3cdf6e24540883",
       "status" : "failed",
       "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <Confirmação de Senha de Transação é obrigatória.> but was: <Confirmação da senha de transação é obrigatória.>",
@@ -2264,14 +2641,23 @@
   },
   "39b4783defca4d677c9cc045120ea78d" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "f3072680975b8d75",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
+      "time" : {
+        "start" : 1712933741361,
+        "stop" : 1712933862426,
+        "duration" : 121065
+      }
+    }, {
       "uid" : "7c1ce07f1486c6fa",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
@@ -2330,11 +2716,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "35950b2f40b53104",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933529544,
+        "stop" : 1712933530309,
+        "duration" : 765
+      }
+    }, {
       "uid" : "7d73d44f4a9d1aec",
       "status" : "passed",
       "time" : {
@@ -2349,11 +2743,19 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "83f70837a9009701",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933496076,
+        "stop" : 1712933637460,
+        "duration" : 141384
+      }
+    }, {
       "uid" : "9cc55b76940659b6",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <500>.\n",
@@ -2409,14 +2811,23 @@
   },
   "a4d066b47fb6393a9a4edad7e0fc396f" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "2089f981cf02b6a",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
+      "time" : {
+        "start" : 1712933615479,
+        "stop" : 1712933737001,
+        "duration" : 121522
+      }
+    }, {
       "uid" : "c37c55ab1a27de90",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
@@ -2476,14 +2887,23 @@
   },
   "b9176d8e53397888da528fe90c25544d" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "9ba1a15ead2f6b3f",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712933759170,
+        "stop" : 1712933819516,
+        "duration" : 60346
+      }
+    }, {
       "uid" : "ee6cf401f90e76a4",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -2496,14 +2916,23 @@
   },
   "d72cc67d5700618172ee63e935155eda" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "bfef7b0eda013b84",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
+      "time" : {
+        "start" : 1712933737003,
+        "stop" : 1712933854977,
+        "duration" : 117974
+      }
+    }, {
       "uid" : "5b090861bf610d37",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
@@ -2563,14 +2992,23 @@
   },
   "b3f52cafe8970cfa59e33a4f226f26d8" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "e59c863cd3a4edd6",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
+      "time" : {
+        "start" : 1712933236459,
+        "stop" : 1712933467593,
+        "duration" : 231134
+      }
+    }, {
       "uid" : "1a9da4ebd8a881b3",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <500>.\n",
@@ -2586,11 +3024,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "a0d6300cd57aa0ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933782349,
+        "stop" : 1712933782699,
+        "duration" : 350
+      }
+    }, {
       "uid" : "3c15c781961a0730",
       "status" : "passed",
       "time" : {
@@ -2602,14 +3048,23 @@
   },
   "3d5a5005d44b6b4556bfa3dba75d45c8" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "ee962d828ffaab00",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
+      "time" : {
+        "start" : 1712933672950,
+        "stop" : 1712933791553,
+        "duration" : 118603
+      }
+    }, {
       "uid" : "8ef2637dfc8846a1",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
@@ -2622,14 +3077,23 @@
   },
   "cc3ac04fcca295e6ab043c275a018b6b" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "9df0fd9f04c4f7d2",
+      "status" : "failed",
+      "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <O e-mail e a confirmação de e-mail devem ser iguais.> but was: <null>",
+      "time" : {
+        "start" : 1712933473299,
+        "stop" : 1712933474095,
+        "duration" : 796
+      }
+    }, {
       "uid" : "9a43e175bde85858",
       "status" : "failed",
       "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <O e-mail e a confirmação de e-mail devem ser iguais.> but was: <null>",
@@ -2688,11 +3152,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "b7b581ba2b9f3017",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933467904,
+        "stop" : 1712933468685,
+        "duration" : 781
+      }
+    }, {
       "uid" : "5111f8ff6b684108",
       "status" : "passed",
       "time" : {
@@ -2707,11 +3179,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "a9620c4be86f9507",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933506633,
+        "stop" : 1712933574276,
+        "duration" : 67643
+      }
+    }, {
       "uid" : "408ad6caf6aa3bef",
       "status" : "passed",
       "time" : {
@@ -2770,14 +3250,23 @@
   },
   "5cfab4ecef425f1651f3435e862d47d1" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "a1823c89395c73cd",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
+      "time" : {
+        "start" : 1712933826834,
+        "stop" : 1712933953041,
+        "duration" : 126207
+      }
+    }, {
       "uid" : "1f475a252d5b160d",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <500>.\n",
@@ -3017,14 +3506,23 @@
   },
   "fa01001a62bf9e0dd7ffb35ac611a93c" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "7a3416024fad3a72",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712933742957,
+        "stop" : 1712933803322,
+        "duration" : 60365
+      }
+    }, {
       "uid" : "82ba6b775261f95f",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <201>.\n",
@@ -3040,11 +3538,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "823642322c85fd48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933535757,
+        "stop" : 1712933597235,
+        "duration" : 61478
+      }
+    }, {
       "uid" : "9315775df084b162",
       "status" : "passed",
       "time" : {
@@ -3056,14 +3562,23 @@
   },
   "5c6a2a8863c631f874a05a0a3e27e7df" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "ab87f309dd1f1604",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
+      "time" : {
+        "start" : 1712933739519,
+        "stop" : 1712933800225,
+        "duration" : 60706
+      }
+    }, {
       "uid" : "4b6fd22106ff3da4",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -3076,14 +3591,23 @@
   },
   "cec6917a35882169ed8698ceb6e99c3a" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "a08179f48b0d906d",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712933468692,
+        "stop" : 1712933529087,
+        "duration" : 60395
+      }
+    }, {
       "uid" : "82f1fd0a0ac0221d",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -3139,14 +3663,23 @@
   },
   "9694d224394623db0898bd2a9fda16af" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "326a7fdf31472b12",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
+      "time" : {
+        "start" : 1712933846110,
+        "stop" : 1712933966044,
+        "duration" : 119934
+      }
+    }, {
       "uid" : "9730669e4daa096b",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
@@ -3159,14 +3692,23 @@
   },
   "8bb3629b7e905c44ed11ae7eb687fd18" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "f8205de26b82afb",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
+      "time" : {
+        "start" : 1712933854979,
+        "stop" : 1712933968742,
+        "duration" : 113763
+      }
+    }, {
       "uid" : "206b1de8e3e80c73",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
@@ -3182,11 +3724,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "acd1d265ea905a54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933779817,
+        "stop" : 1712933780156,
+        "duration" : 339
+      }
+    }, {
       "uid" : "9a588a302f1568c0",
       "status" : "passed",
       "time" : {
@@ -3198,14 +3748,23 @@
   },
   "f8c8f00e6aa80b98ecd71df1a99a8702" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "26c56cbab9b51d25",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712933613806,
+        "stop" : 1712933674577,
+        "duration" : 60771
+      }
+    }, {
       "uid" : "c7bc5f58ad47867c",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -3261,14 +3820,23 @@
   },
   "8d97b0ed5a393777b5d95d2c50d6b69e" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "bbd3ea22a2922e02",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712933658744,
+        "stop" : 1712933719081,
+        "duration" : 60337
+      }
+    }, {
       "uid" : "5aeeac21f876894b",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -3327,11 +3895,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "7e55248bf837a869",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933474100,
+        "stop" : 1712933474888,
+        "duration" : 788
+      }
+    }, {
       "uid" : "4ad22617b41a03ab",
       "status" : "passed",
       "time" : {
@@ -3346,11 +3922,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "f932aa8931f0a7bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933674581,
+        "stop" : 1712933674909,
+        "duration" : 328
+      }
+    }, {
       "uid" : "34f39496fb340f96",
       "status" : "passed",
       "time" : {
@@ -3365,11 +3949,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "40164b2f5d38ed23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933722661,
+        "stop" : 1712933723343,
+        "duration" : 682
+      }
+    }, {
       "uid" : "18331a1e75d98c2",
       "status" : "passed",
       "time" : {
@@ -3381,14 +3973,23 @@
   },
   "a80614f1dc70deb2438ac522e575d98a" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "8fb63a1237682da4",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <201>.\n",
+      "time" : {
+        "start" : 1712933758878,
+        "stop" : 1712933823472,
+        "duration" : 64594
+      }
+    }, {
       "uid" : "f3160fe4fdef164b",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <201>.\n",
@@ -3401,14 +4002,23 @@
   },
   "c0c34e4e9dd37048c238283b65cbbc5d" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d308e0f94514492c",
+      "status" : "failed",
+      "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <A senha de transação e a confirmação devem ser iguais.> but was: <null>",
+      "time" : {
+        "start" : 1712933723690,
+        "stop" : 1712933724088,
+        "duration" : 398
+      }
+    }, {
       "uid" : "d9bbdd716f8df19f",
       "status" : "failed",
       "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <A senha de transação e a confirmação devem ser iguais.> but was: <null>",
@@ -3421,14 +4031,23 @@
   },
   "26111a4665583d2dcb29d6bca7624f72" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "1b108c1f283c5a74",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
+      "time" : {
+        "start" : 1712933238709,
+        "stop" : 1712933496071,
+        "duration" : 257362
+      }
+    }, {
       "uid" : "63528db21343e235",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <500>.\n",
@@ -3444,11 +4063,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "ec8412ba6b209d4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933236458,
+        "stop" : 1712933431991,
+        "duration" : 195533
+      }
+    }, {
       "uid" : "4c763d8d1712b633",
       "status" : "passed",
       "time" : {
@@ -3460,14 +4087,23 @@
   },
   "648b15003a24a33b0568a299e907309b" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "15327f88928aed9d",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
+      "time" : {
+        "start" : 1712933791556,
+        "stop" : 1712933914739,
+        "duration" : 123183
+      }
+    }, {
       "uid" : "be512fedc55a3a69",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
@@ -3480,14 +4116,23 @@
   },
   "1955e4f3b2390ea998c7735f20ba6e3b" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "77f770628d7aeb15",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
+      "time" : {
+        "start" : 1712933803328,
+        "stop" : 1712933930744,
+        "duration" : 127416
+      }
+    }, {
       "uid" : "60d58d7f32bf48a",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
@@ -3543,14 +4188,23 @@
   },
   "1611d96fb083e5b15b5b01c01a82b9b4" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "55fb81f13896bc30",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
+      "time" : {
+        "start" : 1712933718647,
+        "stop" : 1712933846107,
+        "duration" : 127460
+      }
+    }, {
       "uid" : "30c63aafe5ac7217",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
@@ -3609,11 +4263,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "399395103c1cc61c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933236458,
+        "stop" : 1712933408012,
+        "duration" : 171554
+      }
+    }, {
       "uid" : "ab35a285623a8e77",
       "status" : "passed",
       "time" : {
@@ -3625,14 +4287,23 @@
   },
   "5540622e18ba0023de76a6389ff682e1" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "8696e34f4f4b1a43",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
+      "time" : {
+        "start" : 1712933236458,
+        "stop" : 1712933492982,
+        "duration" : 256524
+      }
+    }, {
       "uid" : "eca418400726a40d",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
@@ -3645,14 +4316,23 @@
   },
   "401f84566a2420ee564081e0dfb9c21c" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "1f6fe8b1db50445a",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <500>.\n",
+      "time" : {
+        "start" : 1712933531094,
+        "stop" : 1712933652743,
+        "duration" : 121649
+      }
+    }, {
       "uid" : "c94e390be870c944",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <500>.\n",
@@ -3712,14 +4392,23 @@
   },
   "4cde3ea2397442b34e19e94007df1fed" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "98f704b1935d947a",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <403>.\n",
+      "time" : {
+        "start" : 1712933236458,
+        "stop" : 1712933613801,
+        "duration" : 377343
+      }
+    }, {
       "uid" : "b80790926098ecde",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <403>.\n",
@@ -3732,14 +4421,23 @@
   },
   "17bf2debaf8ebbdb896b18828bdeefb8" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "646d8d039b000482",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+      "time" : {
+        "start" : 1712933864839,
+        "stop" : 1712934000189,
+        "duration" : 135350
+      }
+    }, {
       "uid" : "dac5ec69ebd453c7",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <403>.\n",
@@ -3842,14 +4540,23 @@
   },
   "ea506399c548bbccdb1eb97b39ba6144" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "bb487cd3b98ee81f",
+      "status" : "failed",
+      "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <O documento não pode conter letras.> but was: <O documento deve ter exatamente 11 dígitos.>",
+      "time" : {
+        "start" : 1712933471290,
+        "stop" : 1712933471684,
+        "duration" : 394
+      }
+    }, {
       "uid" : "1b443f5be6bf4c17",
       "status" : "failed",
       "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <O documento não pode conter letras.> but was: <O documento deve ter exatamente 11 dígitos.>",
@@ -3862,14 +4569,23 @@
   },
   "59a796d5b9ab77b394a166a1d8a7b896" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "a0422fb0172b1277",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <500>.\n",
+      "time" : {
+        "start" : 1712933760551,
+        "stop" : 1712933882640,
+        "duration" : 122089
+      }
+    }, {
       "uid" : "b7ee3aeb78e52390",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <500>.\n",
@@ -3885,11 +4601,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "310af5a45b5e9ff6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933695737,
+        "stop" : 1712933696082,
+        "duration" : 345
+      }
+    }, {
       "uid" : "acab34a0ad8538a8",
       "status" : "passed",
       "time" : {
@@ -3901,14 +4625,23 @@
   },
   "371fc8fea13e9170e55c7fc793a68d5d" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "77d55931e9a79347",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712933721983,
+        "stop" : 1712933782347,
+        "duration" : 60364
+      }
+    }, {
       "uid" : "c024918419088b1",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -4011,14 +4744,23 @@
   },
   "1b6cff24232e073bd1144643d94731fc" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "7fb375b4fe51c0aa",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712933236458,
+        "stop" : 1712933467790,
+        "duration" : 231332
+      }
+    }, {
       "uid" : "7c4a892f1888a50f",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <201>.\n",
@@ -4081,11 +4823,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "2efcb737a9d779aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933467859,
+        "stop" : 1712933468397,
+        "duration" : 538
+      }
+    }, {
       "uid" : "f7f6830affc21fa3",
       "status" : "passed",
       "time" : {
@@ -4097,14 +4847,23 @@
   },
   "f4106bfb90c0e743d174c869fee80a06" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "1c103f14f1b0b156",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <409> but was <500>.\n",
+      "time" : {
+        "start" : 1712933724794,
+        "stop" : 1712933853662,
+        "duration" : 128868
+      }
+    }, {
       "uid" : "3ab439505adf3209",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -4167,11 +4926,19 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "8889270452456cc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933652746,
+        "stop" : 1712933826832,
+        "duration" : 174086
+      }
+    }, {
       "uid" : "c3666b0311200eea",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <500>.\n",
@@ -4363,11 +5130,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "b73e75f943526cfa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933672740,
+        "stop" : 1712933673085,
+        "duration" : 345
+      }
+    }, {
       "uid" : "d86534d3cfea601c",
       "status" : "passed",
       "time" : {
@@ -4379,14 +5154,23 @@
   },
   "b91e5bc36e7d9a7d6e3f321f11f0d5d" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "2172f698ff51343e",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <201>.\n",
+      "time" : {
+        "start" : 1712933781606,
+        "stop" : 1712933833341,
+        "duration" : 51735
+      }
+    }, {
       "uid" : "678df2540180f5ce",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -4446,14 +5230,23 @@
   },
   "51c09b45ddde39ba88517b912871fcf1" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "99bfa85964028152",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <201>.\n",
+      "time" : {
+        "start" : 1712933528147,
+        "stop" : 1712933582519,
+        "duration" : 54372
+      }
+    }, {
       "uid" : "e4790a8a265b32cd",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -4513,14 +5306,23 @@
   },
   "9f163296343766382f3296a9fc57acd8" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "45ad05e15ab123b7",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
+      "time" : {
+        "start" : 1712933236458,
+        "stop" : 1712933499679,
+        "duration" : 263221
+      }
+    }, {
       "uid" : "f85860318ac203f7",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <500>.\n",
@@ -4630,11 +5432,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "5319e0618f198a4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933408728,
+        "stop" : 1712933409310,
+        "duration" : 582
+      }
+    }, {
       "uid" : "dff6d266ebf90055",
       "status" : "passed",
       "time" : {
@@ -4646,14 +5456,23 @@
   },
   "44a89da0ac11e3b8a2f5451422ab988f" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "bf5505a4925d19dd",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <406>.\n",
+      "time" : {
+        "start" : 1712933236459,
+        "stop" : 1712933550591,
+        "duration" : 314132
+      }
+    }, {
       "uid" : "af6c7f9eb89daef4",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -4669,11 +5488,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "a6f4f43a015a5e8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933658012,
+        "stop" : 1712933658385,
+        "duration" : 373
+      }
+    }, {
       "uid" : "ca95a086c155c6bf",
       "status" : "passed",
       "time" : {
@@ -4732,14 +5559,23 @@
   },
   "d1a001726d3b1c9d5681bcaa73ef4f4d" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "4751ff35c51d7e62",
+      "status" : "failed",
+      "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <O e-mail deve ter entre 5 e 100 caracteres.> but was: <Formato de e-mail inválido.>",
+      "time" : {
+        "start" : 1712933695378,
+        "stop" : 1712933695726,
+        "duration" : 348
+      }
+    }, {
       "uid" : "5c97132232eb36d0",
       "status" : "passed",
       "time" : {
@@ -4751,14 +5587,23 @@
   },
   "ba6d544764dad8b4723e1429bb53547d" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "af8498e7cd8a33ff",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <401> but was <403>.\n",
+      "time" : {
+        "start" : 1712933886089,
+        "stop" : 1712933978973,
+        "duration" : 92884
+      }
+    }, {
       "uid" : "e1d0e48311599cd3",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <401> but was <403>.\n",
@@ -4771,14 +5616,23 @@
   },
   "1ed033c1f5de0a1a19ffa2df8aac0b0c" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "6d273136b38e3fa1",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
+      "time" : {
+        "start" : 1712933676884,
+        "stop" : 1712933737301,
+        "duration" : 60417
+      }
+    }, {
       "uid" : "2132917a3e33b63a",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -4791,14 +5645,23 @@
   },
   "70992e3e5ede50c5cf70231fea97f37f" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "a0e51df1f5dd3b8f",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <406>.\n",
+      "time" : {
+        "start" : 1712933236459,
+        "stop" : 1712933556095,
+        "duration" : 319636
+      }
+    }, {
       "uid" : "837fdba029af2656",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -4811,14 +5674,23 @@
   },
   "d0e4e241eca5ca397077d4c44df29176" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "8b581f8b85cf7651",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
+      "time" : {
+        "start" : 1712933637463,
+        "stop" : 1712933760549,
+        "duration" : 123086
+      }
+    }, {
       "uid" : "c4bed82b05402ed4",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <500>.\n",
@@ -4877,11 +5749,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "6e6d232f28397dd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933742606,
+        "stop" : 1712933742954,
+        "duration" : 348
+      }
+    }, {
       "uid" : "8cf41d066da064d9",
       "status" : "passed",
       "time" : {
@@ -4893,14 +5773,23 @@
   },
   "79015923e999ae987cbd571fae914b00" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "f658bb4b70d7bbef",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
+      "time" : {
+        "start" : 1712933550593,
+        "stop" : 1712933677686,
+        "duration" : 127093
+      }
+    }, {
       "uid" : "d0775a37fa6c9033",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -5050,14 +5939,23 @@
   },
   "c26015e50fb2b8f80b25939b937606ce" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "b38a0faf50ee9885",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
+      "time" : {
+        "start" : 1712933560398,
+        "stop" : 1712933620744,
+        "duration" : 60346
+      }
+    }, {
       "uid" : "22d5f6cacc087b27",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -5070,14 +5968,23 @@
   },
   "25bd16771eb5bd52035958a529c3a225" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "9b471ac8e999e902",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <201>.\n",
+      "time" : {
+        "start" : 1712933236459,
+        "stop" : 1712933470738,
+        "duration" : 234279
+      }
+    }, {
       "uid" : "f2ed614ed98cce24",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <201>.\n",
@@ -5090,14 +5997,23 @@
   },
   "72f90ee390d6fb6f3cef17fbd1195977" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d2d5545a56daf53b",
+      "status" : "failed",
+      "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <O documento não pode conter caracteres especiais.> but was: <O documento deve ter exatamente 11 dígitos.>",
+      "time" : {
+        "start" : 1712933534899,
+        "stop" : 1712933535248,
+        "duration" : 349
+      }
+    }, {
       "uid" : "d97b5572d9a1875",
       "status" : "failed",
       "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <O documento não pode conter caracteres especiais.> but was: <O documento deve ter exatamente 11 dígitos.>",
@@ -5110,14 +6026,23 @@
   },
   "78008b9700a2f232d2e1a648a9154592" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "178cedc1f867c1f0",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <500>.\n",
+      "time" : {
+        "start" : 1712933467901,
+        "stop" : 1712933636484,
+        "duration" : 168583
+      }
+    }, {
       "uid" : "82efdcbdbd5f4765",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -5173,14 +6098,23 @@
   },
   "eb333d86247fc22564b9d1f446ad0338" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "75e12da3fe8da874",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
+      "time" : {
+        "start" : 1712933613803,
+        "stop" : 1712933739516,
+        "duration" : 125713
+      }
+    }, {
       "uid" : "6eddd9fcb7c2c1e5",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -5236,14 +6170,23 @@
   },
   "864bfadea0dc68c661696ededfbbf00f" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "c2c0202c4095ad97",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <403>.\n",
+      "time" : {
+        "start" : 1712933762605,
+        "stop" : 1712933883999,
+        "duration" : 121394
+      }
+    }, {
       "uid" : "59de8484bd96c7eb",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <403>.\n",
@@ -5259,11 +6202,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "f0e4df67fdd0166b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933408088,
+        "stop" : 1712933408890,
+        "duration" : 802
+      }
+    }, {
       "uid" : "dbe51fde1af30e08",
       "status" : "passed",
       "time" : {
@@ -5275,14 +6226,23 @@
   },
   "bffa7293f501b76ddb67715bf1d73a6" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "a94e84fa43669ef6",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <403>.\n",
+      "time" : {
+        "start" : 1712933552100,
+        "stop" : 1712933672948,
+        "duration" : 120848
+      }
+    }, {
       "uid" : "1b02abd1753918d8",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <403>.\n",
@@ -5295,14 +6255,23 @@
   },
   "b1fc49d1127810e739b50e116a173f2f" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "8e96094f2a32473d",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <201>.\n",
+      "time" : {
+        "start" : 1712933674912,
+        "stop" : 1712933742603,
+        "duration" : 67691
+      }
+    }, {
       "uid" : "5653d07743ac9962",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -5318,11 +6287,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "ae90826a143d81bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933607112,
+        "stop" : 1712933607885,
+        "duration" : 773
+      }
+    }, {
       "uid" : "4f13634187a4aee",
       "status" : "passed",
       "time" : {
@@ -5334,14 +6311,23 @@
   },
   "3d138825c53716fa96e9165487113e0b" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "68a5a74c0bcb0641",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
+      "time" : {
+        "start" : 1712933860601,
+        "stop" : 1712933920939,
+        "duration" : 60338
+      }
+    }, {
       "uid" : "c7815a35486a95b5",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -5404,11 +6390,19 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "b54121c7f66b8532",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933853669,
+        "stop" : 1712933997782,
+        "duration" : 144113
+      }
+    }, {
       "uid" : "81c1a60660e654fc",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
@@ -5421,14 +6415,23 @@
   },
   "124ad7532a03857bd9b60e6a76399de" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "32ee9a4006d157d5",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <406>.\n",
+      "time" : {
+        "start" : 1712933822096,
+        "stop" : 1712933993062,
+        "duration" : 170966
+      }
+    }, {
       "uid" : "3998f026c640595a",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -5441,14 +6444,23 @@
   },
   "57a3c44679003e75435202e45729c006" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "3697bc0268050761",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <406>.\n",
+      "time" : {
+        "start" : 1712933819519,
+        "stop" : 1712933990622,
+        "duration" : 171103
+      }
+    }, {
       "uid" : "29009321b43c9baf",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -5461,14 +6473,23 @@
   },
   "bdd2747d20c499f40362a289b4e94b3" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "87d682a82fbab439",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
+      "time" : {
+        "start" : 1712933616452,
+        "stop" : 1712933676882,
+        "duration" : 60430
+      }
+    }, {
       "uid" : "daff040f8cec64f7",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -5481,14 +6502,23 @@
   },
   "9884b41b3269538c4a4fd2c2ec49b0ab" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "e75fbed524ee06f3",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712933530483,
+        "stop" : 1712933590816,
+        "duration" : 60333
+      }
+    }, {
       "uid" : "b7a5127591f715e7",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -5501,14 +6531,23 @@
   },
   "698524f198ca343e5673bd1b5a4f336f" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "98646b6bcc8777fa",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
+      "time" : {
+        "start" : 1712933862429,
+        "stop" : 1712933971458,
+        "duration" : 109029
+      }
+    }, {
       "uid" : "825bd044f0a2f304",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
@@ -5618,11 +6657,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "b310966608d50cf7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933529751,
+        "stop" : 1712933530480,
+        "duration" : 729
+      }
+    }, {
       "uid" : "18b6fa3f355a9e48",
       "status" : "passed",
       "time" : {
@@ -5637,11 +6684,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "39921297cb9b6d37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933236458,
+        "stop" : 1712933468508,
+        "duration" : 232050
+      }
+    }, {
       "uid" : "da349af422b0b323",
       "status" : "passed",
       "time" : {
@@ -5699,11 +6754,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d2b80923bb7bbe02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933757792,
+        "stop" : 1712933758181,
+        "duration" : 389
+      }
+    }, {
       "uid" : "9ba0ba8fa05f3514",
       "status" : "passed",
       "time" : {
@@ -5718,11 +6781,19 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "1bd15cf3f5917db9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933468209,
+        "stop" : 1712933575198,
+        "duration" : 106989
+      }
+    }, {
       "uid" : "f484f285e9048ece",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <401> but was <404>.\n",
@@ -5735,14 +6806,23 @@
   },
   "15f1c5a672324d05afd1a202a7836f4a" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "965f63bed2f4d549",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <406>.\n",
+      "time" : {
+        "start" : 1712933858714,
+        "stop" : 1712933997211,
+        "duration" : 138497
+      }
+    }, {
       "uid" : "3159185fe4955770",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -5755,14 +6835,23 @@
   },
   "dbb3a979516c2c4a41c2d90cb0f86607" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "3d35f172b951a01f",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
+      "time" : {
+        "start" : 1712933595540,
+        "stop" : 1712933716597,
+        "duration" : 121057
+      }
+    }, {
       "uid" : "43705722bd363fc0",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
@@ -5908,14 +6997,23 @@
   },
   "d0bc5a395e912bec0cf47901c198ddb4" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "e093ee3e89a52f28",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
+      "time" : {
+        "start" : 1712933236458,
+        "stop" : 1712933615476,
+        "duration" : 379018
+      }
+    }, {
       "uid" : "80b71d1bba110417",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
@@ -5928,14 +7026,23 @@
   },
   "89fbeb571a4f6aefdfe6d603617417b4" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "bbdda81010586b5e",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <406>.\n",
+      "time" : {
+        "start" : 1712933784193,
+        "stop" : 1712933981993,
+        "duration" : 197800
+      }
+    }, {
       "uid" : "65c119c5d07f6c27",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -5995,14 +7102,23 @@
   },
   "2d33d573af609714bab63fd000451c5e" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "5d46ac4186255253",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <201>.\n",
+      "time" : {
+        "start" : 1712933607887,
+        "stop" : 1712933672393,
+        "duration" : 64506
+      }
+    }, {
       "uid" : "589af9bae3bd89c2",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -6015,14 +7131,23 @@
   },
   "324a0dec56b7bd4b757caae4d6b6c304" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "96b26c1a386170bf",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712933596087,
+        "stop" : 1712933656685,
+        "duration" : 60598
+      }
+    }, {
       "uid" : "343c284af8ac7d14",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -6035,14 +7160,23 @@
   },
   "3a625ee2c5e1eb41ba2048acd17b24a2" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "a5ad9af39bc5c41a",
+      "status" : "failed",
+      "statusDetails" : "Verificações da resposta da API (1 failure)\n\tjava.lang.NullPointerException: Cannot invoke \"java.util.Map.get(Object)\" because the return value of \"model.GenericFieldErrors.getFieldErrors()\" is null",
+      "time" : {
+        "start" : 1712933499683,
+        "stop" : 1712933625486,
+        "duration" : 125803
+      }
+    }, {
       "uid" : "1378d2096a25ed3c",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -6055,14 +7189,23 @@
   },
   "c8d91417af865ed95e48e3dbe7f502aa" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d7f8b13fd181faa2",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <201>.\n",
+      "time" : {
+        "start" : 1712933590818,
+        "stop" : 1712933657666,
+        "duration" : 66848
+      }
+    }, {
       "uid" : "5ef54f035d88eb30",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -6118,14 +7261,23 @@
   },
   "1bb84c02643987f9ba17fea015583335" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "2f1e5103a9bdd666",
+      "status" : "failed",
+      "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <A senha de transação deve ter exatamente 4 dígitos.> but was: <A confirmação da senha de transação deve ter exatamente 4 dígitos.>",
+      "time" : {
+        "start" : 1712933672396,
+        "stop" : 1712933672736,
+        "duration" : 340
+      }
+    }, {
       "uid" : "b970231c14c6c6c8",
       "status" : "failed",
       "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <A senha de transação deve ter exatamente 4 dígitos.> but was: <A confirmação da senha de transação deve ter exatamente 4 dígitos.>",
@@ -6138,14 +7290,23 @@
   },
   "f616f5c8f0ceda471503053113e57951" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "7fa9a0313ce7659",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
+      "time" : {
+        "start" : 1712933823475,
+        "stop" : 1712933950357,
+        "duration" : 126882
+      }
+    }, {
       "uid" : "a3ee9a490fdfd876",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -6161,11 +7322,19 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "3ec25b2bda485739",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933692691,
+        "stop" : 1712933829538,
+        "duration" : 136847
+      }
+    }, {
       "uid" : "f059b62e467527dc",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <500>.\n",
@@ -6181,11 +7350,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "80a6d7bb341e9d1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933236459,
+        "stop" : 1712933408104,
+        "duration" : 171645
+      }
+    }, {
       "uid" : "508531765964f32f",
       "status" : "passed",
       "time" : {
@@ -6197,14 +7374,23 @@
   },
   "66277a424a1c19a1a477570d3c2add24" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "a77ac740f362be79",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
+      "time" : {
+        "start" : 1712933798360,
+        "stop" : 1712933858711,
+        "duration" : 60351
+      }
+    }, {
       "uid" : "6eaed40f7faf5178",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -6217,14 +7403,23 @@
   },
   "2561e0a1b3845854c7995b261ead194b" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "4b1f277d2eb07075",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <500>.\n",
+      "time" : {
+        "start" : 1712933409318,
+        "stop" : 1712933531090,
+        "duration" : 121772
+      }
+    }, {
       "uid" : "ffe91e19a173dff9",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <500>.\n",
@@ -6284,14 +7479,23 @@
   },
   "a1a3f698eabaf0274a5d1cf02c9a0e32" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "9bfd543391c3c30",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
+      "time" : {
+        "start" : 1712933833345,
+        "stop" : 1712933953608,
+        "duration" : 120263
+      }
+    }, {
       "uid" : "40391bebc43af373",
       "status" : "passed",
       "time" : {
@@ -6393,14 +7597,23 @@
   },
   "48e89ae5fa124e105275afbeda5f8027" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "b9baf81c6dbb1ac1",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
+      "time" : {
+        "start" : 1712933492988,
+        "stop" : 1712933741356,
+        "duration" : 248368
+      }
+    }, {
       "uid" : "69178e0a149b45e7",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
@@ -6463,11 +7676,19 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "e11956a8a6a85824",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933575203,
+        "stop" : 1712933638460,
+        "duration" : 63257
+      }
+    }, {
       "uid" : "7e1e3f9b8aca1b3b",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -6483,11 +7704,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "8bc250cc04bd7acd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933471687,
+        "stop" : 1712933472490,
+        "duration" : 803
+      }
+    }, {
       "uid" : "b0ff447077e38c86",
       "status" : "passed",
       "time" : {
@@ -6502,11 +7731,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "f880435f6ed00d27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933409031,
+        "stop" : 1712933529842,
+        "duration" : 120811
+      }
+    }, {
       "uid" : "c21dd61e2f0d9c00",
       "status" : "passed",
       "time" : {
@@ -6518,14 +7755,23 @@
   },
   "610affa09e3a5db52752dc9138e31b58" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "6b27208ea2779ee9",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <201>.\n",
+      "time" : {
+        "start" : 1712933657017,
+        "stop" : 1712933722658,
+        "duration" : 65641
+      }
+    }, {
       "uid" : "d5ff3c7cdd886bf4",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <201>.\n",
@@ -6538,14 +7784,23 @@
   },
   "782256b5dbd67ac10c77c3687dd8fae3" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "17ae7d7a73a1a2bb",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
+      "time" : {
+        "start" : 1712933716600,
+        "stop" : 1712933886086,
+        "duration" : 169486
+      }
+    }, {
       "uid" : "ee6638c596cc3d1c",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
@@ -6605,14 +7860,23 @@
   },
   "d5e4653e4b97a01741174707af0e07ca" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "696b3315801bfe6f",
+      "status" : "failed",
+      "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <O e-mail e a confirmação de e-mail devem ser iguais.> but was: <null>",
+      "time" : {
+        "start" : 1712933780880,
+        "stop" : 1712933781603,
+        "duration" : 723
+      }
+    }, {
       "uid" : "b029d37400be8928",
       "status" : "failed",
       "statusDetails" : "Verificações da resposta da API (1 failure)\n\torg.opentest4j.AssertionFailedError: A mensagem da resposta não é o esperado. ==> expected: <O e-mail e a confirmação de e-mail devem ser iguais.> but was: <null>",
@@ -6625,14 +7889,23 @@
   },
   "d4e56ba7f36c6e77b150764985c84394" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "375e5a226ce38b1",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <403>.\n",
+      "time" : {
+        "start" : 1712933236459,
+        "stop" : 1712933492806,
+        "duration" : 256347
+      }
+    }, {
       "uid" : "415275de889e8680",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <403>.\n",
@@ -6648,11 +7921,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d1a979bfc0e5663b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933472494,
+        "stop" : 1712933473296,
+        "duration" : 802
+      }
+    }, {
       "uid" : "430ca6db8094a3b3",
       "status" : "passed",
       "time" : {
@@ -6667,11 +7948,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "67a6c6b23df68650",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933529091,
+        "stop" : 1712933529540,
+        "duration" : 449
+      }
+    }, {
       "uid" : "d966e5f9ae815e54",
       "status" : "passed",
       "time" : {
@@ -6686,11 +7975,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "50602409578d51b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933529845,
+        "stop" : 1712933645193,
+        "duration" : 115348
+      }
+    }, {
       "uid" : "d7d92a4367832fc3",
       "status" : "passed",
       "time" : {
@@ -6702,14 +7999,23 @@
   },
   "6fb7bd2f8ad8e934f93195020cda5b14" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "17c81d30887b0092",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <201>.\n",
+      "time" : {
+        "start" : 1712933530312,
+        "stop" : 1712933595538,
+        "duration" : 65226
+      }
+    }, {
       "uid" : "4e6114c837f394a1",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -6722,14 +8028,23 @@
   },
   "d5549d5fb515d708ea782320d302f58b" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "885e7bddc379488b",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
+      "time" : {
+        "start" : 1712933737304,
+        "stop" : 1712933797695,
+        "duration" : 60391
+      }
+    }, {
       "uid" : "e1caf641cf01c07a",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -6745,11 +8060,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "e9264a57e6594c79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933724093,
+        "stop" : 1712933724791,
+        "duration" : 698
+      }
+    }, {
       "uid" : "894bd1faf6585148",
       "status" : "passed",
       "time" : {
@@ -6761,14 +8084,23 @@
   },
   "7fc9a4c291d5c600a23c459afc9dac76" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "c4a6e506d3df3de3",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
+      "time" : {
+        "start" : 1712933677688,
+        "stop" : 1712933738018,
+        "duration" : 60330
+      }
+    }, {
       "uid" : "3f19ea75477a3ff2",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -6781,14 +8113,23 @@
   },
   "79326577b7050f7f9b9a6dbbc36de" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "78fa62f78a7fb721",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
+      "time" : {
+        "start" : 1712933236459,
+        "stop" : 1712933467896,
+        "duration" : 231437
+      }
+    }, {
       "uid" : "73e3a79ed3c2e3f1",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <503>.\n",
@@ -6801,14 +8142,23 @@
   },
   "149d5aa44ac854c45d6cda8c73ba0eda" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "786a2b9218c2b354",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712933499684,
+        "stop" : 1712933560395,
+        "duration" : 60711
+      }
+    }, {
       "uid" : "10c22dd166805932",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -6821,14 +8171,23 @@
   },
   "a7ed65db45df267680922b8a39a0f6e4" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "41ff12723c81ed3e",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712933638462,
+        "stop" : 1712933698818,
+        "duration" : 60356
+      }
+    }, {
       "uid" : "a6436b2280f91a11",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -6844,11 +8203,19 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "c04729f95386bc69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712933882654,
+        "stop" : 1712934001656,
+        "duration" : 119002
+      }
+    }, {
       "uid" : "aa44376eace7b624",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <403>.\n",
@@ -6908,14 +8275,23 @@
   },
   "1c289fb120c82dbdca0c428fae15cdd0" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "30b978e4fa729309",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <500>.\n",
+      "time" : {
+        "start" : 1712933467602,
+        "stop" : 1712933602680,
+        "duration" : 135078
+      }
+    }, {
       "uid" : "ba3480b95d1b43a5",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -6928,14 +8304,23 @@
   },
   "4c805e14de288c93fa841ac4bfdf23c0" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "db322ef72f40de3c",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <500>.\n",
+      "time" : {
+        "start" : 1712933636487,
+        "stop" : 1712933822093,
+        "duration" : 185606
+      }
+    }, {
       "uid" : "f003c163f80de8d3",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -6995,14 +8380,23 @@
   },
   "122e3786fbfc1f0ca3a748c0aa442e97" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "7d66365fb393bba6",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <406>.\n",
+      "time" : {
+        "start" : 1712933797698,
+        "stop" : 1712933988212,
+        "duration" : 190514
+      }
+    }, {
       "uid" : "c6094167c5060510",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <201> but was <500>.\n",
@@ -7015,14 +8409,23 @@
   },
   "687ef517706a196677d6caf65fc6141c" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "5633c7d764ff517c",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712933468404,
+        "stop" : 1712933534188,
+        "duration" : 65784
+      }
+    }, {
       "uid" : "b30d640e49001d42",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -7082,14 +8485,23 @@
   },
   "6149ee0d03784f377c389aa76a1a8475" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "fcff89bf1c06dded",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1712933719084,
+        "stop" : 1712933779814,
+        "duration" : 60730
+      }
+    }, {
       "uid" : "3cdd2c50718ed80",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
@@ -7102,14 +8514,23 @@
   },
   "1efc038bddfca890ae4fedb898574249" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "1443931d2d8b43f3",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <406>.\n",
+      "time" : {
+        "start" : 1712933236458,
+        "stop" : 1712933552096,
+        "duration" : 315638
+      }
+    }, {
       "uid" : "b429b303b92cc1e6",
       "status" : "failed",
       "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
